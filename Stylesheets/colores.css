@@ -1,0 +1,17 @@
+:root{
+    --color-body-gris:#333333;
+    --color-container:#1717179E;
+    --color-hover:#515151;
+    --color-titulos:#2fff13;
+    --color-textos:white;
+    --color-navbar-active:#2fff13;
+    --color-button:#2fff13;
+    --color-border:#2fff13;
+    --color-navbar-inactive:white;
+    --color-hover-button:#ffb413;
+    --color-hover-span:#a5ff13;
+    --color-footer:#121212;
+}
+.footer-bg{
+    background-color: var(--color-footer);
+}

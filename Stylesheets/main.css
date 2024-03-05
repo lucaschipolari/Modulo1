@@ -1,0 +1,124 @@
+:root{
+    --color-body-gris:#333333;
+    --color-container:#1717179E;
+    --color-hover:#515151;
+    --color-titulos:#2fff13;
+    --color-textos:white;
+    --color-navbar-active:#2fff13;
+    --color-border:#2fff13;
+    --color-button:#00f603;
+    --color-navbar-inactive:white;
+    --color-hover-button:#ffb413;
+    --color-hover-span:#00f900;
+    --color-footer:#121212;
+    --texto-font:"Oswald", sans-serif;
+}
+
+#main-carousel{
+    height: 400px;
+}
+.carousel-images{
+    height: 400px;
+    object-fit: cover;
+    filter: blur(5px);
+}
+.btn-color{
+   background-color: #00f900;
+   color: black;
+   border: 1px solid black;
+   
+}
+.btn-color-static{
+    background-color: #000000;
+    color: #00f900;
+    border: 1px solid #00f900;
+    padding: 6px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: none;
+    
+}
+.titulos{
+    color: #00f900;
+    border-bottom: 1px solid #00f900;
+    border-right: 1px solid #00f900;
+    transition: background-color 0.5s;
+
+}
+.btn-color:hover{
+    background-color: #000000;
+    color: #00f900;
+    border: 1px solid #00f900;
+}
+.bg-carousel{
+    background-color: #000000;
+}
+body{
+    background-image: url('../Images/fondo.jpg'); /* Reemplaza 'ruta/de/la/imagen.jpg' con la ruta de tu imagen */
+    background-size: cover; /* Para cubrir todo el fondo */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.celular-section{
+    height: 270px;
+    width: 100%;
+    background:url("../Images/fondo2.png");
+    border-top:1px solid #00f900;
+    border-bottom:1px solid #00f900;
+}
+.card-bg{
+    background: rgba(32, 32, 32, 0.2);
+    border:1px solid rgba(255, 255, 255, 0.37);
+    backdrop-filter: blur(5px);
+}
+.card-bg:hover{
+    background: rgb(255, 255, 255,0.2);
+    backdrop-filter: blur(5px); /* Aplicar un desenfoque de 10px al fondo */
+}
+.img-celular{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50px;    
+}
+.img-service{
+    height: 50px;
+    width: 150px;
+    object-fit: cover;
+    border:1px solid #000000;
+    border-radius: 5px;
+}
+.style-trabajamos{
+    color: #ffffff;
+    border-bottom: 1px solid #00f900;
+    border-right: 1px solid #00f900;
+    background:rgba(27, 27, 27, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+
+footer{
+    font-family:var(--texto-font);
+}
+.footer-bg{
+    background-color: var(--color-footer);
+}
+
+.icon-color{
+    color:white;
+}
+.icon-color:hover{
+    color: var(--color-button);
+}
+@media (width < 576px){
+    .media-footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+@media (width < 768px){
+    .celular-section{
+        height: 420px;
+    }
+}
